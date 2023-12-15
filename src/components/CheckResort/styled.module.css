@@ -1,0 +1,60 @@
+.containerCheck {
+  width: 90%;
+  height: auto;
+}
+
+.form {
+  width: 100%;
+  height: auto;
+
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  background: white;
+  border-radius: 8px;
+}
+.title {
+  color: black;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  font-size: 2rem;
+  padding: 5px;
+}
+
+.containerButtons {
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  gap: 1px;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.btnCheck {
+  border-radius: 8px;
+  background: #044ab3;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 1.6rem;
+}
+
+.inputCheck {
+  padding: 10px;
+  font-size: 1.6rem;
+  border-radius: 8px;
+}

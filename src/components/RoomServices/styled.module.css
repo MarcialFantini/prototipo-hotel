@@ -1,0 +1,35 @@
+.containerSection {
+  width: 95%;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 3.2rem;
+
+  margin: 0;
+}
+
+.text {
+  font-size: 1.8rem;
+  color: gray;
+}
+
+.btn {
+  font-size: 1.8rem;
+  color: white;
+  background: #044ab3;
+
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 20px;
+  margin: 50px 0;
+}

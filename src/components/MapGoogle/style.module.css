@@ -1,0 +1,10 @@
+.containerMap {
+  width: 95%;
+  margin: auto;
+}
+
+.maps {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+}
