@@ -1,8 +1,8 @@
 .article {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+
   width: 95%;
-  margin: auto;
+  margin: 50px auto;
 }
 
 .picture {
@@ -30,7 +30,7 @@
 }
 
 .title {
-  font-size: 3.4rem;
+  font-size: 3rem;
   margin: 0;
 }
 .text {
@@ -45,4 +45,18 @@
   padding: 10px 15px;
 
   background: none;
+}
+
+@media (min-width: 768px) {
+  .article {
+    margin: 100px auto;
+    display: flex;
+    gap: 30px;
+  }
+  .picture {
+    width: 100%;
+  }
+  .textContainer {
+    width: 100%;
+  }
 }

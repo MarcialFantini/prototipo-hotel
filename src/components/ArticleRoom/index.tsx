@@ -7,7 +7,10 @@ interface props {
 
 export const ArticleRoom = ({ isRow }: props) => {
   return (
-    <article className={styled.article}>
+    <article
+      style={{ flexDirection: !isRow ? "row-reverse" : "row" }}
+      className={styled.article}
+    >
       <picture className={styled.picture}>
         <Image className={styled.img} src={srcImage} alt="Room"></Image>
       </picture>

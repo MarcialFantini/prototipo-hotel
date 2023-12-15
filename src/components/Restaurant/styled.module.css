@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 95%;
-  margin: auto;
+  margin: 100px auto;
 
   border-radius: 16px;
   background: #f5f8fc;
@@ -43,4 +43,11 @@
   border: none;
 
   font-size: 2rem;
+}
+
+@media (min-width: 768px) {
+  .containerSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }

@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  min-height: 100px;
+}
+
+.title {
+  font-size: 3rem;
+}
+.containerRooms {
+  margin-top: -50px;
+}
